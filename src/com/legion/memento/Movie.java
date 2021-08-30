@@ -12,11 +12,11 @@ public class Movie {
         this.rate = rate;
     }
 
-    public EditorState createState() {
-        return new EditorState(title, description, rate);
+    public MovieState createState() {
+        return new MovieState(title, description, rate);
     }
 
-    public void restore(EditorState state) {
+    public void restore(MovieState state) {
         title = state.getTitle();
         description = state.getDescription();
         rate = state.getRate();
