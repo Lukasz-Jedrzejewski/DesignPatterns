@@ -46,5 +46,14 @@ public class Movie {
         this.rate = rate;
     }
 
+    public void setValues(String title, String description, int rate) {
+        this.title = title;
+        this.description = description;
+        this.rate = rate;
+    }
 
+    @Override
+    public String toString() {
+        return title + ", " + description + ", " + rate;
+    }
 }
