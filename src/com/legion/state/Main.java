@@ -10,6 +10,14 @@ public class Main {
         controller.press();
         controller.release();
 
+        controller.setCurrentButton(new SquareButton());
+        controller.press();
+        controller.release();
+
+        controller.setCurrentButton(new TriangleButton());
+        controller.press();
+        controller.release();
+
         controller.setCurrentButton(new DownButton());
         controller.press();
         controller.release();
