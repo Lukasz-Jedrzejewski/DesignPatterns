@@ -14,5 +14,16 @@ public class Main {
             System.out.println(iterator.current());
             iterator.next();
         }
+
+        String[] names = {"A", "B", "C", "D"};
+        checkNames(names);
+    }
+
+    public static void checkNames(String[] arr) {
+        Iterator iterator = new NamesHistory(arr);
+        while (iterator.hasNext()) {
+            System.out.println(iterator.current());
+            iterator.next();
+        }
     }
 }
