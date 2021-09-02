@@ -1,7 +1,9 @@
 package com.legion.memento;
 
 public class Main {
+
     public static void main(String[] args) {
+
         firstTest();
         System.out.println();
         secondTest();

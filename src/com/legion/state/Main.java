@@ -1,7 +1,9 @@
 package com.legion.state;
 
 public class Main {
+
     public static void main(String[] args) {
+
         GameController controller = new GameController();
         /**
          * Using polymorphism
