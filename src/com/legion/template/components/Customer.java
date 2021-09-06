@@ -1,4 +1,4 @@
-package com.legion.template;
+package com.legion.template.components;
 
 import java.util.UUID;
 
@@ -14,6 +14,7 @@ public class Customer {
     }
 
     public void record() {
-        System.out.println(String.format("Transferring money by %s %s. Transaction id: %s", name, surname, transferId));
+        System.out.println(String.format("An attempt to execute a transaction by %s %s. Transaction id: %s",
+                name, surname, transferId));
     }
 }
